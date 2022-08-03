@@ -5,10 +5,10 @@
 </div>
 
 <div align="center">
-<a href="https://github.com/oslabs-beta/ksqljs"><img src="https://img.shields.io/badge/license-MIT-blue"/></a>
-<a href="https://github.com/oslabs-beta/ksqljs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oslabs-beta/ksqljs"></a>
-<a href="https://github.com/oslabs-beta/ksqljs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/oslabs-beta/ksqljs"></a>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oslabs-beta/ksqljs">
+<a href="https://github.com/oslabs-beta/ksqlSuite"><img src="https://img.shields.io/badge/license-MIT-blue"/></a>
+<a href="https://github.com/oslabs-beta/ksqlSuite/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oslabs-beta/ksqlSuite"></a>
+<a href="https://github.com/oslabs-beta/ksqlSuite/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/oslabs-beta/ksqlSuite"></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oslabs-beta/ksqlSuite">
 
    <p align="center"> <strong>A native Node.js client for ksqlDB</strong></p>
 </div>
@@ -37,11 +37,11 @@ Sample use cases:
 
 ## <a name="getting-started"></a> Getting Started
 
-The client is available on Node package manager (npm) ([link](https://www.npmjs.com/package/ksqldb-js))
+The client is available on Node package manager (npm) ([link](https://www.npmjs.com/package/ksqlient))
 
 ```bash
 
-npm install ksQlient
+npm install ksqlient
 
 ```
 
@@ -50,7 +50,7 @@ npm install ksQlient
 Create a client in the application file:
 
 ```javascript
-const ksqldb = require("ksQlient");
+const ksqldb = require("ksqlient");
 const client = new ksqldb({ ksqldbURL: "<url to ksqlDB server>" });
 ```
 
